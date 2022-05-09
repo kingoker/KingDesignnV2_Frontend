@@ -1,0 +1,198 @@
+.laptopWithText{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+.laptopWithText__laptop{
+    position: relative;
+}
+.laptop{
+    z-index: 1;
+}
+.laptopWithText__sites {
+    background-image: url(../img/laptopBG.png);
+    background-position: center;
+    width: 74.9%;
+    height: 81.1%;
+    position: absolute;
+    top: 6.2%;
+    left: 12.6%;
+    overflow: hidden;
+}
+.main__image-site {
+    position: absolute;
+    width: 34%;
+    height: 32%;
+    border-radius: 3%;
+    overflow: hidden;
+}
+
+.main__image-1{
+    top: 1%;
+    left: -8%;
+    animation: animate1 30s linear infinite;
+}
+@keyframes animate1{
+    20%{
+        left: -43%;
+    }
+    20.001%{
+        left: 100%;
+        display: none;
+    }
+    40%{
+        left: 97%;  
+    }
+    60%{
+        left: 62%;
+    }
+    80%{
+        left: 27%;
+    }
+    100%{
+        left: -8%;
+    }
+}
+
+
+.main__image-2{
+    top: 1%;
+    left: 27%;
+    animation: animate2 30s linear infinite;
+}
+@keyframes animate2{
+    20%{
+        left: -8%;
+    }
+    40%{
+        left: -43%;
+    }
+    40.0001%{
+        left: 135%;
+        display: none;
+    }
+    60%{
+        left: 97%;
+    }
+    80%{
+        left: 62%;
+    }
+    100%{
+        left: 27%;
+    }
+}
+
+
+.main__image-3{
+    top: 1%;
+    left: 62%;
+    animation: animate3 30s linear infinite;
+}
+@keyframes animate3{
+    20%{
+        left: 27%;
+    }
+    40%{
+        left: -8%;
+    }
+    60%{
+        left: -43%;
+    }
+    60.0001%{
+        left: 135%;
+        display: none;
+    }
+    80%{
+        left: 97%;
+    }
+    100%{
+        left: 62%;
+    }
+}
+
+
+.main__image-4{
+    top: 1%;
+    left: 97%;
+    animation: animate4 30s linear infinite;
+}
+@keyframes animate4{
+    20%{
+        left: 62%;
+    }
+    40%{
+        left: 27%;
+    }
+    60%{
+        left: -8%;
+    }
+    80%{
+        left: -43%;
+    }
+    80.0001%{
+        left: 135%;
+        display: none;
+    }
+    100%{
+        left: 97%;
+    }
+}
+.main__image-5{
+    top: 100%;
+    left: -43%;
+    animation: animate5 30s linear infinite;
+}
+@keyframes animate5{
+    0.0001%{
+        left: 135%;
+        display: none;
+    }
+    20%{
+        left: 97%;
+    }
+    40%{
+        left: 62%;
+    }
+    60%{
+        left: 27%;
+    }
+    80%{
+        left: -8%;
+    }
+    100%{
+        left: -43;
+    }
+}
+
+
+
+.main__image-6{
+    top: 34%;
+    left: 8%;
+}
+.main__image-7{
+    top: 34%;
+    left: 43%;
+}
+.main__image-8{
+    top: 34%;
+    left: 78%;
+}
+
+.main__image-9{
+    top: 67%;
+    left: 1%;
+}
+.main__image-10{
+    top: 67%;
+    left: 36%;
+}
+.main__image-11{
+    top: 67%;
+    left: 71%;
+}
+.main__image-12{
+    top: 67%;
+    left: -34%;
+    animation: animate 30s linear infinite;
+}
