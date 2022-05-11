@@ -26,7 +26,9 @@
     border-radius: 3%;
     overflow: hidden;
 }
-
+.main__image-site:hover{
+    opacity: 0.8;
+}
 .main__image-1{
     top: 1%;
     left: -8%;
